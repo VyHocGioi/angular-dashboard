@@ -1,0 +1,73 @@
+body {
+  height: 100%;
+
+  /* background-image: url("https://edutrip.edu.vn/wp-content/uploads/2018/10/purple-pink-linear-gradient-1920x1080-c2-ffc0cb-9370db-a-135-f-14.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+/* main {
+  background-image: url("https://edutrip.edu.vn/wp-content/uploads/2018/10/purple-pink-linear-gradient-1920x1080-c2-ffc0cb-9370db-a-135-f-14.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+/* .content {
+  background-image: url("https://edutrip.edu.vn/wp-content/uploads/2018/10/purple-pink-linear-gradient-1920x1080-c2-ffc0cb-9370db-a-135-f-14.jpg");
+} */
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: none;
+}
+.wrapper {
+  background-image: url("https://edutrip.edu.vn/wp-content/uploads/2018/10/purple-pink-linear-gradient-1920x1080-c2-ffc0cb-9370db-a-135-f-14.jpg");
+}
+.h3 {
+  color: white;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  background-color: rgba(255, 254, 247, 0.5) !important;
+  border: 2px solid none;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
